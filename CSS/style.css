@@ -1,0 +1,87 @@
+/* 
+#212121 - заголовки
+#757575 - основной текст
+#FFFFFF - белый
+rgba(255, 255, 255, 0.6) - белый 60% футер
+#2196F3 - голубой
+F5F4FA - background team-section
+2F303A - background hero
+E5E5E5 - основной background
+*/
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+}
+
+body {
+    background-color: var(--white-color) ;
+    color: var(--primary-text-color);
+}
+
+.logo {
+    font-size: 26px;
+}
+
+.logo-web {
+    color: var(--accent-color);
+}
+
+.logo-studio {
+    color: #000000;
+}
+
+.list {
+    list-style:none;
+}
+
+/* site-nav*/
+/*link*/
+.site-nav .link{
+    color:var(--title-text-color);
+    text-decoration:none;
+    display: inline-block;
+}
+
+.site-nav .link:hover, .site-nav .link:focus {
+color: var(--accent-color);
+cursor:pointer;
+text-decoration:none;
+}
+
+/* hero */
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+color: var(--white-color);    
+}
+
+/* Button */
+.button {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    font-size: 16px;
+    display: inline;
+    border: 1px solid black;
+}
+/* section */
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Features */
+
+.features-list .title, .team-list .title {
+    color: var(--title-text-color);
+}
+/* work */
+
+/* team */
+.team-section {
+    background-color: #F5F4FA;
+}
+/* footer */
