@@ -21,16 +21,25 @@ E5E5E5 - основной background
 body {
     background-color: var(--white-color) ;
     color: var(--primary-text-color);
-
+    font-family: 'Raleway',
+    sans-serif;
+    font-family: 'Roboto',
+    sans-serif;
 }
 
 .logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
     font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
     text-decoration: none;
 }
 
 .logo-web {
     color: var(--accent-color);
+    
 }
 
 .logo-studio {
@@ -104,14 +113,7 @@ color: var(--white-color);
 .footer .logo-studio{
     color: var(--white-color);
 }
-.address {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-}
+
 .address>p {
     color: var(--white-color);
 }
