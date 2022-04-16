@@ -169,9 +169,14 @@ text-transform: uppercase
 /* PAGE PORTFOLIO */
 
 .portfolio-button {
-    font-family: inherit;
     background-color: var(--primary-background-color);
     color: var(--title-text-color);
+    font-family: inherit;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
 }
 
 .portfolio-button:hover,
@@ -182,7 +187,20 @@ text-transform: uppercase
     cursor: pointer;
 }
 
-.filter-title {
+.portfolio-title {
     color: var(--title-text-color);
+    font-weight: 700;
     font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
+
+.portfolio-list .category {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+/* .portfolio-list .text {
+
+} */
