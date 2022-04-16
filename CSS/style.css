@@ -5,7 +5,7 @@
 rgba(255, 255, 255, 0.6) - белый 60% футер
 #2196F3 - голубой
 F5F4FA - background team-section
-2F303A - background hero
+2F303A - background hero, footer
 E5E5E5 - основной background
 */
 
@@ -14,15 +14,19 @@ E5E5E5 - основной background
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --white-color: #FFFFFF;
-}
+    --primary-background-color:#F5F4FA;
+    --secondary-background-color:#2F303A;
+    }
 
 body {
     background-color: var(--white-color) ;
     color: var(--primary-text-color);
+
 }
 
 .logo {
     font-size: 26px;
+    text-decoration: none;
 }
 
 .logo-web {
@@ -39,16 +43,23 @@ body {
 
 /* site-nav*/
 /*link*/
-.site-nav .link{
+.site-nav .link, .portfolio-button {
     color:var(--title-text-color);
     text-decoration:none;
     display: inline-block;
 }
 
-.site-nav .link:hover, .site-nav .link:focus {
+.site-nav .link:hover, .site-nav .link:focus  {
 color: var(--accent-color);
 cursor:pointer;
 text-decoration:none;
+}
+
+.contact-link {
+    color: var(--primary-text-color);    
+}
+.contact-link:hover {
+    color: var(--accent-color);
 }
 
 /* hero */
@@ -64,24 +75,66 @@ color: var(--white-color);
 .button {
     background-color: var(--accent-color);
     color: var(--white-color);
-    font-size: 16px;
-    display: inline;
-    border: 1px solid black;
+}
+
+.button.primary {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+.button.secondary {
+     background-color:var(--white-color);
+     color: var(--accent-color);
 }
 /* section */
 .section-title {
     color: var(--title-text-color);
 }
-
 /* Features */
-
 .features-list .title, .team-list .title {
     color: var(--title-text-color);
 }
 /* work */
 
 /* team */
-.team-section {
-    background-color: #F5F4FA;
-}
+
 /* footer */
+.footer {
+    background-color: var(--secondary-background-color);
+}
+.footer .logo-studio{
+    color: var(--white-color);
+}
+.address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+.address>p {
+    color: var(--white-color);
+}
+.footer-link {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration:none;
+}
+
+/* PAGE PORTFOLIO */
+
+.portfolio-button {
+    background-color: var(--primary-background-color);
+    color: var(--title-text-color);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.filter-title {
+    color: var(--title-text-color);
+    font-size: 18px;
+}
