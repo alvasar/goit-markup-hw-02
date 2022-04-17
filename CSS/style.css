@@ -136,10 +136,6 @@ text-transform: uppercase
     font-weight: 700;
     line-height: 1.14;
 }
-.features-list .text {
-    font-weight: 400;
-
-}
 /* work */
 
 /* team */
@@ -157,14 +153,15 @@ text-transform: uppercase
 .address>p {
     color: var(--primary-background-color);
     font-style: normal;
-    font-weight: 400;
 }
 .footer-link {
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
     text-decoration:none;
-    font-weight: 400;
 }
+.footer-link:hover, .footer-link:focus {
+    color: var(--primary-background-color);
+} 
 
 /* PAGE PORTFOLIO */
 
@@ -172,7 +169,6 @@ text-transform: uppercase
     background-color: var(--primary-background-color);
     color: var(--title-text-color);
     font-family: inherit;
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -184,7 +180,6 @@ text-transform: uppercase
     font-family: inherit;
     background-color: var(--accent-color);
     color: var(--primary-background-color);
-    cursor: pointer;
 }
 
 .portfolio-title {
@@ -196,11 +191,6 @@ text-transform: uppercase
 }
 
 .portfolio-list .category {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
 }
-
-/* .portfolio-list .text {
-
-} */
