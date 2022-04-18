@@ -73,10 +73,17 @@ color: var(--accent-color);
 cursor:pointer;
 }
 
+.site-nav .link:active {
+    color: var(--accent-color);
+}
+
 .contact-link {
     color: var(--primary-text-color);
+    text-decoration:none;
     cursor:pointer;
     letter-spacing: 0.02em;
+    font-weight: 500;
+
 }
 .contact-link:hover {
     color: var(--accent-color);
@@ -136,12 +143,19 @@ text-transform: uppercase
     font-weight: 700;
     line-height: 1.14;
 }
+    .features-list .title {
+     text-transform: uppercase;   
+    }
 /* work */
 
 /* team */
 .section.team {
     background-color: var(--third-background-color);
 }
+.team-list .text {
+    font-size: 16px;
+}
+
 /* footer */
 .footer {
     background-color: var(--secondary-background-color);
