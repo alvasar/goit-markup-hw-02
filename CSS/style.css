@@ -73,10 +73,6 @@ color: var(--accent-color);
 cursor:pointer;
 }
 
-.site-nav .link:active {
-    color: var(--accent-color);
-}
-
 .contact-link {
     color: var(--primary-text-color);
     text-decoration:none;
